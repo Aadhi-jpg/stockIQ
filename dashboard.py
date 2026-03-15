@@ -95,7 +95,7 @@ def label_style():
 
 app.layout = html.Div(id="root", children=[
     dcc.Store(id="theme-store", data="dark"),
-    html.Script(src="https://www.googletagmanager.com/gtag/js?id=G-2P6KEP6G1M", async_=True),
+    html.Script(src="https://www.googletagmanager.com/gtag/js?id=G-2P6KEP6G1M"),
     html.Script(children="""
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
