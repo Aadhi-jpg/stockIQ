@@ -17,7 +17,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
-app.title = "StockIQ - Stock Analysis Dashboard"
+app.title = "Aadhi's StockIQ - Stock Analysis Dashboard"
 
 DARK = {
     "bg":       "#0f1117",
@@ -98,7 +98,7 @@ app.layout = html.Div(id="root", children=[
 
     # SIDEBAR
     html.Div(id="sidebar", children=[
-        html.Div("StockIQ", style={"fontSize": "20px", "fontWeight": "700", "marginBottom": "4px"}),
+        html.Div("Aadhi's StockIQ", style={"fontSize": "20px", "fontWeight": "700", "marginBottom": "4px"}),
         html.Div("Stock Analysis Dashboard", style={"fontSize": "11px", "marginBottom": "24px"}),
         html.Button("Toggle Dark / Light", id="theme-btn", n_clicks=0),
         html.Hr(id="hr1"),
