@@ -535,4 +535,4 @@ if __name__ == "__main__":
     print("  Open your browser and go to:")
     print("  http://127.0.0.1:8050")
     print("=" * 45)
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=10000)
